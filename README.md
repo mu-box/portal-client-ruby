@@ -1,6 +1,6 @@
 # portal
 
-A Ruby client for interacting with the [portal](https://github.com/nanopack/portal) service.
+A Ruby client for interacting with the [portal](https://github.com/mu-box/portal) service.
 
 ## Installation
 
@@ -114,7 +114,7 @@ Register a new route:
 ```ruby
 client.add_route({
     subdomain: 'blog',              # Subdomain of the request. Optional. Assumes *
-    domain: 'nanobox.io',           # Domain of the request. Optional. Assumes *
+    domain: 'microbox.cloud',       # Domain of the request. Optional. Assumes *
     path: '/',                      # Path of the incoming request
     targets: ['http://192.168.0.2'] # List of locations to forward the request
     fwdpath: '/',                   # Path to forward to targets (combined with target path)
@@ -179,9 +179,9 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/nanopack/portal.
+Bug reports and pull requests are welcome on GitHub at https://github.com/mu-box/portal.
 
 
 ## License
 
-The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+This project is released under [The MIT License](http://opensource.org/licenses/MIT).
